@@ -32,7 +32,6 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     props: true,
     component: LayoutMain,
-    // children: mainRoutes,
     children: [
       ...mainRoutes,
       { path: '/pokemon', name: 'pokemon-list', component: PokemonList },
